@@ -1,7 +1,7 @@
 # *DSI_assignment_GIT*
 ### Description
 This repository is part of an asssignment for the 2022 DSI_UofT_Course First module
-[DSI certificate](https://datasciencecertificate.ca) It contains Unix Shell scripts in order to retrieve one or more column from a csv file, calculate max, min and mean from one of those columns and savint them into separate file.
+[DSI certificate](https://datasciencecertificate.ca) It contains Unix Shell scripts in order to retrieve one or more column from a csv file, calculate max, min and mean from one of those columns and save them into separate files.
 
 ### Usage and Instalation
 EFF1 script will retrieve infraction type and amount from the parking.csv file from [Toronto Open data Portal](https://open.toronto.ca/dataset/parking-tickets/) and print the infractions, min , max , and save a csv_file with only one type of infractions and with the column of amounts. 
