@@ -2,7 +2,11 @@
 
 ### **Repository Descripion**
 This repository is part of an asssignment for the 2022 DSI_UofT_Course First module
-[DSI certificate](https://datasciencecertificate.ca) It contains a  Unix Shell script (EFF1.sh), a dataset of the parking infractions in the city of Toronto (parking.csv) and a video that shows how to run the script (EFF1 script video).
+[DSI certificate](https://datasciencecertificate.ca) 
+It contains:
+- [ ] Unix Shell script (EFF1.sh)
+- [ ] Dataset of the parking infractions in the city of Toronto (parking.csv) 
+- [ ] Video that shows how to run the script (EFF1 script video).
 
 ### **Script Function**
  EFF1 script will retrieve infraction type and amount from the parking.csv file from [Toronto Open data Portal](https://open.toronto.ca/dataset/parking-tickets/) and print the infractions, min , max and mean fine amount. The script will alsso output and save a csv_file with only one type of infractions. 
