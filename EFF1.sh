@@ -41,11 +41,13 @@ echo Maximum fine amount
 
 cut -d, -f4,5 < $csv_file | sort -n | grep "FAIL TO (PARK/STOP) ANGLE SPCE" | cat > Homework.csv
 
-echo The file Homework.csv has been created in your working directory with one parking infractions FAIL TO  PARK/STOP ANGLE SPACE
+echo The file Homework.csv has been created on your working directory with one parking infractions FAIL TO  PARK/STOP ANGLE SPACE
 
 
 cut -d, -f5 < $csv_file | sort -k4 | cat > fine_amount.csv 
 
-echo The file  fine_amount.csv has been created in your working directoy and will be needed to use  the script EFF2.sh to get the mean of the fine amounts
+echo The file  fine_amount.csv has been created on your working directoy 
 
+awk 'BEGIN{s=0;}{s=s+$1;}END{print s/NR;}' < fine_amount.csv
 
+echo  Mean fine fine_amount
